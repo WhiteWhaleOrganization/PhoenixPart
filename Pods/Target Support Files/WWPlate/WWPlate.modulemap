@@ -1,0 +1,6 @@
+framework module WWPlate {
+  umbrella header "WWPlate-umbrella.h"
+
+  export *
+  module * { export * }
+}

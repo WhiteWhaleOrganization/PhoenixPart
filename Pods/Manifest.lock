@@ -1,0 +1,77 @@
+PODS:
+  - Alamofire (5.8.0)
+  - AutoInch (2.4.1)
+  - HandyJSON (5.0.2)
+  - IQKeyboardManagerSwift (6.5.15)
+  - Kingfisher (7.9.1)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - RZColorfulSwift (0.5.0)
+  - SnapKit (5.6.0)
+  - SpeechBell (0.0.1):
+    - AutoInch
+    - HandyJSON
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Moya
+    - RZColorfulSwift
+    - SnapKit
+    - SwiftyJSON
+    - WKToast
+  - SwiftyJSON (5.0.1)
+  - WKToast (0.0.1)
+  - WWPlate (1.3.2):
+    - WWPlate/Full (= 1.3.2)
+  - WWPlate/Core (1.3.2)
+  - WWPlate/Full (1.3.2):
+    - NVActivityIndicatorView (~> 4.7.0)
+    - SnapKit (~> 5.6.0)
+    - WWPlate/Core
+  - zipzap (8.1.1)
+
+DEPENDENCIES:
+  - SpeechBell
+  - WWPlate
+  - zipzap
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AutoInch
+    - HandyJSON
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Moya
+    - NVActivityIndicatorView
+    - RZColorfulSwift
+    - SnapKit
+    - SpeechBell
+    - SwiftyJSON
+    - WKToast
+    - WWPlate
+    - zipzap
+
+SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  AutoInch: 4d69de92c4c54b71352d67d07dcb6d9e5d1e546a
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  IQKeyboardManagerSwift: 79fab21f451441935788dc5d80ded21c32685904
+  Kingfisher: 1d14e9f59cbe19389f591c929000332bf70efd32
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  RZColorfulSwift: c4cb0c4668a77a9a1b5cb1a884f6ae20f2be3f58
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SpeechBell: 659e32b4928d13f3e7e8c074031aa85acd9733b8
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  WKToast: d1a9b092c02f9de5a411ff4f53c3e40ad4870968
+  WWPlate: 4474abf4e8172d6778844db731a590d619460ba3
+  zipzap: 940162d9c9c60472c2eab341385e4214da0fdf1c
+
+PODFILE CHECKSUM: d105c566f0b1c5b395e988a3fcfd7a8baa50b08c
+
+COCOAPODS: 1.12.0
