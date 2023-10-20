@@ -310,12 +310,13 @@ class inptForwardPack: BMPlayerControlView {
         
         
         
-        
+        currentTimeLabel.adjustsFontSizeToFitWidth = true
         currentTimeLabel.textColor  = UIColor(red: 0.925, green: 0.925, blue: 0.925, alpha: 1)
         currentTimeLabel.font       = UIFont.systemFont(ofSize: 12)
         currentTimeLabel.text       = tensnBottomSpeech([374, 374, 384, 374, 374])
         currentTimeLabel.textAlignment = NSTextAlignment.center
         
+        totalTimeLabel.adjustsFontSizeToFitWidth = true
         totalTimeLabel.textColor    = UIColor(red: 0.925, green: 0.925, blue: 0.925, alpha: 1)
         totalTimeLabel.font         = UIFont.systemFont(ofSize: 12)
         totalTimeLabel.text         = tensnBottomSpeech([374, 374, 384, 374, 374])
@@ -543,7 +544,7 @@ class inptForwardPack: BMPlayerControlView {
                 make.left.equalTo(self.playButton.snp.right)
                 make.centerY.equalTo(self.playButton)
             }
-            make.width.equalTo(40)
+            make.width.equalTo(60)
         }
         
         timeSlider.snp.remakeConstraints { [unowned self](make) in
@@ -564,7 +565,7 @@ class inptForwardPack: BMPlayerControlView {
         totalTimeLabel.snp.remakeConstraints { [unowned self](make) in
             make.centerY.equalTo(self.currentTimeLabel.snp.centerY)
             make.left.equalTo(self.timeSlider.snp.right).offset(5)
-            make.width.equalTo(40)
+            make.width.equalTo(60)
             if isFullscreen{
                 make.right.equalToSuperview()
             }
